@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    >
+
+    <title>Happy Birthday Abu</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- PAGE 1 -->
+        <section class="page active" id="page1">
+
+            <div class="content">
+
+                <h1>
+                    Twice decade back The Universe was quiet,
+                    everything felt like a cold, dark void...
+                </h1>
+
+                <button onclick="nextPage()">
+                    press the quantum entangle
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- PAGE 2 -->
+        <section class="page" id="page2">
+
+            <div class="content">
+
+                <h1>
+                    Quantum Decoherence, ABU had been born,
+                    people learn how to perceive Brightness.
+                </h1>
+
+                <button onclick="nextPage()">
+                    energy distribution
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- PAGE 3 -->
+        <!-- OLD PAGE 3 HAS BEEN REMOVED -->
+
+        <section class="page" id="page3">
+
+            <div class="content">
+
+                <h1>
+                    “Shall I compare thee to a summer’s day?
+                    Thou art more lovely and more temperate…”
+                </h1>
+
+                <button onclick="birthdayReveal()">
+                    press 26th August
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- PAGE 4 : BIRTHDAY REVEAL -->
+        <section class="page birthday-page" id="page4">
+
+            <!-- Balloons are generated here -->
+            <div id="balloon-container"></div>
+
+
+            <!-- Photos are generated here -->
+            <div id="photo-container">
+
+                <img src="abu1.jpg" class="photo photo1" alt="Abu">
+
+                <img src="abu2.jpg" class="photo photo2" alt="Abu">
+
+                <img src="abu3.jpg" class="photo photo3" alt="Abu">
+
+                <img src="abu4.jpg" class="photo photo4" alt="Abu">
+
+            </div>
+
+
+            <div class="birthday-content">
+
+                <div class="birthday-small">
+                    26th August
+                </div>
+
+                <h1 class="birthday-text">
+                    Happy Birthday ABU !
+                </h1>
+
+                <p class="birthday-subtitle">
+                    another year, another beautiful chapter...
+                </p>
+
+                <button onclick="nextPage()">
+                    scubaaa scubaaa
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- PAGE 5 : MESSAGE -->
+        <section class="page message-page" id="page5">
+
+            <div class="message-container">
+
+                <h1 class="message-title">
+                    For Abu,
+                </h1>
+
+
+                <div class="message-box">
+
+                    <p>
+                        May this year be kinder to you, softer in
+                        all the ways that matter.
+                    </p>
+
+                    <p>
+                        May your days be filled with quiet joy
+                        and a warmth that never fades.
+                    </p>
+
+                    <p>
+                        You deserve a happiness that feels
+                        constant, not fleeting.
+                    </p>
+
+                    <p>
+                        Somewhere between all these wishes…
+                        I hope you feel how much you mean to me.
+                    </p>
+
+                    <p>
+                        And maybe, in time, we find a little more
+                        of us in all of this.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- AUDIO -->
+
+    <audio
+        id="birthdayMusic"
+        src="birthday.mp3"
+        preload="auto"
+        loop
+    ></audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
